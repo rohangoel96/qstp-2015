@@ -1,0 +1,78 @@
+Prerequisites
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Functions
+For the purposes of this course a function will mean an object which takes an input and gives an output.
+Don't get confused by all those one-one onto one many *#!$ and everything that we all have read.
+A function can take as many inputs as you want, with the syntax as 
+
+def Function(Input1,Input,Input3,Input4,Input5.....):
+	Code Block
+	.
+	.
+This is called a declaration. Here we just create a function and declare what it does. 
+
+Function("Anmol","Sahoo","I","Am","Self","Obsessed")
+This is the process of calling a function. Here we are giving the values to the input.
+So now Input1 = Anmol, Input2 = Sahoo and so on.
+If I were to say inside the function, give me the first letter of Input1, that would be - ________
+(Yeah yeah, you have to fill this stupid blank, which reminds me of our shitty textbooks. 
+Anyone from CBSE would know that their texbooks had "WHY?" next to very important points. 
+Atleast this txt file is better than that")
+
+Now we can manipulate these values to whatever we want. And then we can return certain values if we 
+have a return statement in the function.
+
+return Input1
+
+What this statement does is it returns Input1. (Yeah, pretty obvious). What is important to understand is
+that wherever in code you see 
+
+Function("Anmol","Sahoo","I","Am","Self","Obsessed") imagine it to be "Anmol" if the return statement is the one above.
+
+So,
+
+FirstName = Function("Anmol","Sahoo","I","Am","Self","Obsessed") would mean that FirstName now holds "Anmol".
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Input of Variables
+Variables in Python can be input using the raw_input method.
+The syntax of this function is raw_input("Prompt")
+The prompt, as obvious from the work is a small message to remind the user of what to input.
+This function returns a value which can be used or stored. Keeping in line with the huge body of text above
+the function return value can be used as you like it. (+ points for anyone who points out the literature reference here. :p)
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Scope of Variables
+
+Depending on where you declare a variable, it's scope is defined. What scope means is that where you are
+allowed to use that variable. 
+
+So anything I declare inside a function. Let's say 
+
+def Function(input1,input2,input3,input4):
+	student = 1
+	
+This will not be accessible after the function is used. If I had a print statement outside this function, 
+it would not work. 
+	
+That is why in the assignment I have declared studentList outside anything. 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+Strings
+
+Strings are stored as lists in Python.
+So if I declare Name = "Anmol", it means 
+
+Serial Number       Variable Name        Value 
+0						Name[0]             'A'  
+0						Name[1]             'n'  
+0						Name[2]             'm'  
+0						Name[3]             'o'  
+0						Name[4]             'l'
+
+So if I want to access the fourth letter it would be Name[3].
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  
