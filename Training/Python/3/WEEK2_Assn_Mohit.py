@@ -88,8 +88,10 @@ def Promotestudent(studentList):
 	
 	for temp_student in studentList:
 		if (temp_student.Firstname == promote_firstname ):
-			int(temp_student.ClassEN) += 1
-
+			tmp1 = int(temp_student.ClassEN) 
+			tmp1 += 1
+			temp_student.ClassEN = str(tmp1)
+			
 def AddStudent(studentList):
 	print "Lets add a student"
     temporary_student = Student(raw_input("First Name\n"),raw_input("Last Name\n"),raw_input("DOB\n"),raw_input("Year of Enrollment\n"),raw_input("Class of Enrollment\n"),raw_input("Section enrolled in\n"))
