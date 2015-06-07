@@ -12,7 +12,7 @@ class Student(object):
 		self.YearofEN = Year_of_Enrollment
 		self.ClassEN = Class_Enrolled_in
 		self.SectionEN = Section_enrolled_in
-		self.rollnum = self.FirstName[0:2] + self.LastName[:len(firstname)-3:-1] + self.YearofEN[:len(Year_of_Enrollment)-3:-1]
+		self.rollnum = self.FirstName[0:2] + self.LastName[0:2] + self.YearofEN[:len(Year_of_Enrollment)-3:-1]
 class Teacher(object):
 	
 	def __init__(self,FirstName, LastName, YearJoined, DOB):
