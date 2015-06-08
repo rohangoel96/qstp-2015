@@ -23,7 +23,7 @@ class Teacher(object):
 #Function Declarations
 def printDetails(studentList):
     n1 = raw_input("Enter student number:")
-    print "First Name: %s\nLast Name: %s\n" %(studentList[int(n1)-1].FirstName,studentList[int(n1)-1].LastName)
+    print "First Name: %s\nLast Name: %s\nRoll Number: %s\n" %(studentList[int(n1)-1].FirstName,studentList[int(n1)-1].LastName,studentList[int(n1)-1].rollnum)
 	
 def createStudentList(studentList):
 	print "Creating a list of students."
