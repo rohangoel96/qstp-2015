@@ -21,8 +21,9 @@ class Teacher(object):
 		self.yearjoined = YearJoined
 		self.dob = DOB	
 #Function Declarations
-def printDetails(Student):
-	print "First Name: %s\nLast Name: %s\n" %(Student.FirstName,Student.LastName)
+def printDetails(studentList):
+    n1 = raw_input("Enter student number:")
+    print "First Name: %s\nLast Name: %s\n" %(studentList[int(n1)-1].FirstName,studentList[int(n1)-1].LastName)
 	
 def createStudentList(studentList):
 	print "Creating a list of students."
