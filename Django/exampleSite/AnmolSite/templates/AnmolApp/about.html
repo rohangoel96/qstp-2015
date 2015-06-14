@@ -1,0 +1,37 @@
+<!Doctype HTML>
+
+{% load staticfiles %}
+<html>
+<head>
+
+<title>Welcome to the AnimeList</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static "AnmolApp/bootstrap/css/bootstrap.min.css" %}">
+  <script src = "{% static "AnmolApp/bootstrap/js/jquery-1.11.2.min.js" %}"></script>
+  <script src = "{% static "AnmolApp/bootstrap/js/bootstrap.min.js" %}"></script>
+</head>
+<body>
+
+<div class="container">
+<nav role="navigation" class="navbar navbar-default">
+   <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="/anmolapp/home/">Home</a></li>
+            <li><a href="/anmolapp/animelist/">Anime List</a></li>
+            <li class="active"><a href="/anmolapp/about/">About</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="well">About us</div>
+<h4>Thanks {{your_name}}, for visiting our site. We hope you found the anime of your choice, and 
+please keep coming back to the best anime website in town.</h4>
+
+<div class="panel panel-default">
+	<div class="panel-heading"> Hey QSTP'ers! I hope you enjoyed this small site and gives you a basic idea
+	of what I am going to teach you. Yeah trust me, I am a complete novice at coding and still could create this in a days time, so don't worry, it's not too difficult and you guys will have an awesome time doing this.</div>
+	<div class="panel-body">Thanks to Debaditya, Kunvarjeet, Mohit, Piyush, Rishabh, Rohan, Sanjana, Shikhar, Sujith and Suneha for visiting. The creator of MyAnimeList hopes you guys have a good time.
+	</div>
+
+</body>
+</html>
