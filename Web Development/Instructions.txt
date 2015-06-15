@@ -1,0 +1,11 @@
+Hey! For all those interedted in Web Development, please go through 
+this pdf. It's important that you guys understand the how a website
+is actually rendered.
+
+Make sure you understand the tags properly. <p>, <h>, <b>, <img>.
+So on. Just read them carefully, you don't have to do the exercises.
+
+For the CSS part, just understand what CSS does, we will be using a CSS
+template, because we don't have time to cover CSS in detail. But still
+make sure you have a basic understanding of CSS. 
+

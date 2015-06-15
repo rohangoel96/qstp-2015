@@ -1,0 +1,23 @@
+Now that you guys have installed DJango, time to get going! 
+
+First thing, read about MVC Framework. That has to be the most important
+thing that you have to understand properly.
+
+Next up go to these tutorials and start reading. You don't have to
+understand everything now, but make sure you get the basic understanding
+of models and views.
+
+The tutorials are - 
+
+1. http://tutorial.djangogirls.org/en/index.html
+This is a basic tutorial and it is very good fun. Recommended if you 
+are a beginner. :D
+
+2. http://www.tangowithdjango.com/book17/
+A little more advanced. Suitable for you if you are confident you can 
+handle statements like - "Django's ORM let's us define models without 
+interfacing with the SQL, which helps us call the elements of the model
+in our views in the form of Python classes and return the render request
+to the appropriate function." :p
+
+See you in the next hangout. :D
