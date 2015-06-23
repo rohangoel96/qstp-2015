@@ -1,0 +1,15 @@
+Hey guys! Let's get started again, now that we have had our breaks. 
+
+Step 1: Go to this site and complete this tutorial. http://www.sitepoint.com/build-to-do-list-30-minutes/
+Pretty simple tutorial. You will easily follow through. Just one thing,
+ don't change the database engine to SQL. Just skip that step and do 
+everything before and after that. Once you are done with the tutorial, for the to-do list just update a few entries with your name and send me a screenshot. 
+
+Step 2: For those of you, who finish by Wednesday 24 June 2015, go to 
+http://www.tangowithdjango.com/book17/ and start from Chapter 4 and finish 
+it by Friday. 
+
+
+I'll upload the next assignment shortly. 
+
+As ever, Call me if you need anything. :D
