@@ -16,6 +16,8 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 from sunehaapp import views
+
 urlpatterns = [
     url(r'^homepage/',views.HomePage,name = "Home Page"),
+    url(r'^page1/',views.Page1,name = "Page 1"),
 ]
