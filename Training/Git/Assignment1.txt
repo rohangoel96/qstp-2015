@@ -1,7 +1,11 @@
 Assignment 1
 20-05-2015
 
+<<<<<<< HEAD
 Author - Sanjana Sekhar
+=======
+Author - Shikhar Saluja 
+>>>>>>> 75160c6620669353f6c8520676e742d046b8965e
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -43,6 +47,7 @@ Change 2
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 VCS System 2
+<<<<<<< HEAD
 
 Change 1
 1. file1- no change
@@ -83,3 +88,5 @@ Change 8
 1. file1- add dreams of mech guy to end- 25/05 9 am A3 (flew mumbai happy wednesday still dazed dreams of mech guy)
 2. file2- change 5
 3. file3- change 7
+=======
+>>>>>>> 75160c6620669353f6c8520676e742d046b8965e
