@@ -1,0 +1,10 @@
+git remote add debaditya https://github.com/debadityabasu96/qstp-2015
+git remote add piyush https://github.com/dhpiyush/qstp-2015
+git remote add kunwar https://github.com/jeetkunwar/qstp-2015
+git remote add mohit https://github.com/razor139/qstp-2015
+git remote add rishabh https://github.com/rishu2513/qstp-2015
+git remote add rohan https://github.com/rohangoel96/qstp-2015
+git remote add sanjana https://github.com/SanjanaSekhar/qstp-2015
+git remote add shikhar https://github.com/shikharsaluja/qstp-2015
+git remote add sujith https://github.com/sujithpai96/qstp-2015
+git remote add suneha https://github.com/SunehaBagri/qstp-2015
