@@ -1,0 +1,20 @@
+Cloning :
+First we forked from your repository,
+that is we created a copy of the original repo in our local repo. 
+And then we cloned from our local repo to receive a local copy.
+
+Commit :
+Then we create a new file. We added(staged) it to our local copy by using the
+git add * command. Then we made a commit to the changes we have made to the
+file. This was done using the git commit -m "THE MESSAGE".
+
+Push to remote :
+Then we pushed the changes we have commited in the previous step to our 
+local repo on github. This was done using the git push origin master command.
+This means that we are pushing all our data to Origin from our master branch.
+
+
+Pull from remote :
+Then we added your repo as one of the remote repositories by the git remote add
+command. And then finally we pull from your repo by git pull "name" master
+command. So if any changes have been made to the original repo I can see that.
