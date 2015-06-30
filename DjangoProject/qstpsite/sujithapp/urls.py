@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from sujithapp import views
 
 urlpatterns = [
-    url(r'^admin/', include(admin.site.urls)),
-    url(r'^suneha/',include('sunehaapp.urls')),
-	 url(r'^sujith/',include('sujithapp.urls')),
+    url(r'^homepage/',views.HomePage,name = "Home Page"),
+    url(r'^page1/',views.Page1,name = "Page 1"),
+	url(r'^page2/',views.Page2,name = "Page 2"),
 ]
