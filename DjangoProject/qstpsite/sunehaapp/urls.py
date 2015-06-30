@@ -21,4 +21,5 @@ urlpatterns = [
     url(r'^homepage/',views.HomePage,name = "Home Page"),
     url(r'^page1/',views.Page1,name = "Page 1"),
 	url(r'^page2/',views.Page2,name = "Page 2"),
+    
 ]
