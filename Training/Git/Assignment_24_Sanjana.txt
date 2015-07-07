@@ -1,0 +1,6 @@
+Commands learnt in 1st Hangout:
+1. Clone: Clone another person's repo from github and make a local copy on your system
+2. Add: Add modified files to staging area to be committed
+3. Status: Check status of tracked and untracked files, as being staged or not, modified or not
+4. Push to remote: Push local repo to online git repo, remot being our repo on github
+5. Pull from remote: Pull someone else's repo from github to your local system
