@@ -1,0 +1,4 @@
+1.Clone
+2.Commit
+3.Push to remote
+4.Pull from to remote
