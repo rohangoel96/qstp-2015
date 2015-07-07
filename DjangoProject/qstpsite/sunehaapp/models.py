@@ -1,6 +1,13 @@
 from django.db import models
 from sujithapp.models import figureofspeech
  
+class language(models.Model):
+        language_Country = models.CharField(max_lenth = 300)
+
+		def __unicode__(self):
+			return self.language_Country
+			
+
 class word(models.Model):
         
         language = models.ForeignKey(language)
@@ -10,6 +17,4 @@ class word(models.Model):
  
         def __unicode__(self):
                 return self.word_text
-class language(newmodel.Model):
-        language_Country = newmodels.CharField(max_lenth = 300)
-# Create your models here.
+				
