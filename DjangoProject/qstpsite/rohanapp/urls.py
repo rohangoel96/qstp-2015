@@ -18,7 +18,7 @@ from django.contrib import admin
 from rohanapp import views
 
 urlpatterns = [
-    url(r'^$',views.HomePage,name = "Home Page"),
+    url(r'^login/',views.Login,name = "login"),
     url(r'^page1/',views.Page1,name = "Page 1"),
 	url(r'^page2/',views.Page2,name = "Page 2"),
 ]
