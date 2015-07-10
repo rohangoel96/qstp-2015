@@ -18,7 +18,9 @@ from django.contrib import admin
 from rohanapp import views
 
 urlpatterns = [
-    url(r'^login/',views.Login,name = "login"),
-    url(r'^page1/',views.Page1,name = "Page 1"),
-	url(r'^page2/',views.Page2,name = "Page 2"),
+
+    url(r'^login/',views.Login,name = "Login"),
+    url(r'^edit_profile/',views.EditProfile,name = "Edit Profile"),
+     url(r'^login_success/',views.LoginSuccess,name = "Login Success"),
+	
 ]

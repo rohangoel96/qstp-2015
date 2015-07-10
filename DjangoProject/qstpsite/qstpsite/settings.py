@@ -28,6 +28,11 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+''' SESSIONS for cookies'''
+#https://docs.djangoproject.com/en/1.8/topics/http/sessions/
+SESSION_ENGINE = "django.contrib.sessions.backends.signed_cookies"
+
+
 # Application definition
 
 INSTALLED_APPS = (
