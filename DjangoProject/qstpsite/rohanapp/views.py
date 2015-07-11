@@ -24,10 +24,10 @@ def Login(request):
 
 
 def LoginSuccess(request):
-	username = str(request.session['username'])
-	user_list = UserProfile.objects.filter(username = username)
+	username = request.session['username']
+	user = LoginProfile.objects.get(username = username) #username is a foriegn key
 	
- 	name = user_list[0].name
+ 	name = user.username.name
 	
 	context = {'name' : name}
 	return render(request,"rohan/login_success.html",context) 
